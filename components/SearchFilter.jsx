@@ -15,7 +15,7 @@ export default function SearchFilter({ onSearch, onCategory, categories }) {
   }
 
   return (
-    <div className="flex flex-col md:flex-row gap-3 items-start md:items-center mb-10">
+    <div className="flex flex-col md:flex-row gap-3 items-start md:items-center justify-between mb-10">
       <input
         value={q}
         onChange={handleSearch}

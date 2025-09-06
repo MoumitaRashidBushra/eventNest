@@ -1,4 +1,5 @@
 import EventsProvider from "../components/EventsProvider";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./globals.css";
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <EventsProvider>
           <Header />
           <main className="container px-4 py-6">{children}</main>
+          <Footer></Footer>
         </EventsProvider>
       </body>
     </html>
